@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+profile = "black"
+
+[project]
+name = "neinsum"
+description = "NumPy's Einsum, but with named subscripts."
+readme = "README.md"
+authors = [
+  {name = "Andreas Dutzler"},
+  {email = "a.dutzler@gmail.com"},
+  
+]
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = [
+  "python", 
+  "numpy",
+  "einsum",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Topic :: Utilities"
+]
+dynamic = ["version"]
+
+dependencies = [
+  "numpy",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "neinsum.__about__.__version__"}
+
+[project.urls]
+Homepage = "https://github.com/adtzlr/named_einsum"
+Code = "https://github.com/adtzlr/named_einsum"
+Issues = "https://github.com/adtzlr/named_einsum/issues"
