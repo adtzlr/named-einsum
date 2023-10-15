@@ -1,5 +1,10 @@
-# Named Einsum
-> NumPy's Einsum, but with named subscripts.
+# Neinsum (Named Einsum)
+> *NumPy's Einsum, but with named subscripts.*
+
+# Installation
+```
+pip install neinsum
+```
 
 # Usage
 ```python
