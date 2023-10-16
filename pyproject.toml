@@ -48,6 +48,6 @@ dependencies = [
 version = {attr = "neinsum.__about__.__version__"}
 
 [project.urls]
-Homepage = "https://github.com/adtzlr/named_einsum"
-Code = "https://github.com/adtzlr/named_einsum"
-Issues = "https://github.com/adtzlr/named_einsum/issues"
+Homepage = "https://github.com/adtzlr/named-einsum"
+Code = "https://github.com/adtzlr/named-einsum"
+Issues = "https://github.com/adtzlr/named-einsum/issues"
