@@ -26,5 +26,5 @@ y = np.arange(9).reshape(3, 3)
 z = named_einsum("A_ij,B_kl")(A=x, B=y)
 
 # this is equal to
-np.einsum("ij,kl", x, x)
+np.einsum("ij,kl", x, y)
 ```
