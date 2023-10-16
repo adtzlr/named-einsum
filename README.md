@@ -1,4 +1,7 @@
-# Neinsum (Named Einsum)
+# Neinsum
+
+A Named Einsum.
+
 > *NumPy's Einsum, but with named subscripts.*
 
 [![PyPI version shields.io](https://img.shields.io/pypi/v/neinsum.svg)](https://pypi.python.org/pypi/neinsum/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://spdx.org/licenses/MIT.html) [![codecov](https://codecov.io/gh/adtzlr/named-einsum/graph/badge.svg?token=akiKR6sHEb)](https://codecov.io/gh/adtzlr/named-einsum) ![Codestyle black](https://img.shields.io/badge/code%20style-black-black)
