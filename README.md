@@ -23,7 +23,7 @@ from neinsum import named_einsum
 x = np.eye(3)
 y = np.arange(9).reshape(3, 3)
 
-z = named_einsum("A_ij,B_kl")(A=x, B=y)
+named_einsum("A_ij,B_kl")(A=x, B=y)
 
 # this is equal to
 np.einsum("ij,kl", x, y)
