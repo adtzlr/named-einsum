@@ -1,6 +1,8 @@
 # Neinsum (Named Einsum)
 > *NumPy's Einsum, but with named subscripts.*
 
+[![codecov](https://codecov.io/gh/adtzlr/named-einsum/graph/badge.svg?token=akiKR6sHEb)](https://codecov.io/gh/adtzlr/named-einsum)
+
 # Installation
 ```
 pip install neinsum
